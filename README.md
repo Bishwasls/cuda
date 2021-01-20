@@ -10,3 +10,5 @@ https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&t
 
 Type the following command on linux terminal to get informations about the numbers of CUDA cores you have in your machine <br/>
 > nvidia-settings -q CUDACores -t
+Also, following command is useful to know the information about the NVIDIA GPU
+> nvidia-smi
