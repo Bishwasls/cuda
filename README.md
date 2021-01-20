@@ -9,6 +9,6 @@ https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&t
 <br/> to install cuda on Lenovo X1 Carbon Extreme Gen 3 machine with Ubuntu 20.04 OS.
 
 Type the following command on linux terminal to get informations about the numbers of CUDA cores you have in your machine <br/>
-> nvidia-settings -q CUDACores -t
-<br/> Also, following command is useful to know the information about the NVIDIA GPU
-> nvidia-smi
+$ nvidia-settings -q CUDACores -t
+<br/> Also, following command is useful to know the information about the NVIDIA GPU <br/>
+$ nvidia-smi
