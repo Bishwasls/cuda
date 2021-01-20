@@ -1,6 +1,6 @@
 # Some CUDA programs:
 
-This repo contains my effort to learn CUDA programming. I have tested these codes only on Alabama supercomputer GPU,
+This repo contains my effort to learn CUDA programming. I have tested these codes only on NVIDIA GeForce GTX 1650 Ti (4GB) GPU,
 but you should be able to run these codes in any CUDA capable desktop/laptop. 
 
 Installation of CUDA on Ubuntu 20.04: <br/>
@@ -9,4 +9,4 @@ https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&t
 <br/> to install cuda on Lenovo X1 Carbon Extreme Gen 3 machine with Ubuntu 20.04 OS.
 
 Type the following command on linux terminal to get informations about the numbers of CUDA cores you have in your machine <br/>
-nvidia-settings -q CUDACores -t
+> nvidia-settings -q CUDACores -t
