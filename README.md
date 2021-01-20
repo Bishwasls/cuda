@@ -12,3 +12,7 @@ Type the following command on linux terminal to get informations about the numbe
 $ nvidia-settings -q CUDACores -t
 <br/> Also, following command is useful to know the information about the NVIDIA GPU <br/>
 $ nvidia-smi
+<br/> A more detailed information about the device can be obtained running the simple CUDA program "cuda_device_info.cu" on this repo.<br/>
+$ nvcc cuda_device_info.cu <br/>
+$ ./a.out
+
